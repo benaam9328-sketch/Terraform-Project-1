@@ -26,7 +26,7 @@ The EC2 instances use:
 | --- | ---: | ---: | ---: |
 | `dev` | 1 | 1 | 1 |
 | `stg` | 2 | 1 | 1 |
-| `prod` | 3 | 2 | 2 |
+| `prod` | 4 | 2 | 2 |
 
 Any workspace other than `dev`, `stg`, or `prod` falls back to the `dev` counts. The workspace name is also included in resource names and tags.
 
